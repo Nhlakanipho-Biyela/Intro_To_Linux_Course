@@ -115,7 +115,8 @@ Time Per Week
 \end_layout
 
 \begin_layout Standard
-2 x 45 minutes
+Wednesdays (E block): 14:00 - 16:00 - Normal Lectures, 16:00 - 17:00 extra
+ tut session
 \end_layout
 
 \begin_layout Section*
@@ -127,6 +128,22 @@ To help COMS students familliarize themselves with linux - which in turn
  will help them in there studies.
  Also to spread the love of linux around and in turn make the world a slightly
  better place.
+\end_layout
+
+\begin_layout Section*
+Setup
+\end_layout
+
+\begin_layout Standard
+Setup virtual machine server using open nebula??
+\end_layout
+
+\begin_layout Section*
+Course Website
+\end_layout
+
+\begin_layout Standard
+Github repository
 \end_layout
 
 \begin_layout Part
@@ -170,7 +187,8 @@ Tasks
 \end_layout
 
 \begin_layout Standard
-Format Linux on your laptop if you have one
+No task.
+ We give an example of ssh and tmux
 \end_layout
 
 \begin_layout Subsection
@@ -254,7 +272,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-75 minutes
+45 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -274,8 +292,11 @@ What is GNU vs what is Linux, Richard Stalman and Linus Torvalds
 \end_layout
 
 \begin_layout Enumerate
-What are distros (including forked distro examples) and what are desktop
- environments
+What are distros (including forked distro examples)
+\end_layout
+
+\begin_layout Enumerate
+what is GUI what are desktop environments
 \end_layout
 
 \begin_layout Enumerate
@@ -338,7 +359,23 @@ Points for lessons
 \end_layout
 
 \begin_layout Enumerate
+general command structure
+\end_layout
+
+\begin_layout Enumerate
+what are flags
+\end_layout
+
+\begin_layout Enumerate
+man
+\end_layout
+
+\begin_layout Enumerate
 pwd
+\end_layout
+
+\begin_layout Enumerate
+ls
 \end_layout
 
 \begin_layout Enumerate
@@ -351,10 +388,6 @@ touch
 
 \begin_layout Enumerate
 mkdir
-\end_layout
-
-\begin_layout Enumerate
-ls
 \end_layout
 
 \begin_layout Enumerate
@@ -374,11 +407,59 @@ copy paste with ctr+shift
 \end_layout
 
 \begin_layout Enumerate
+cat
+\end_layout
+
+\begin_layout Section
+Processes
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+No tasks for this section
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+ps
+\end_layout
+
+\begin_layout Enumerate
+top
+\end_layout
+
+\begin_layout Enumerate
+sleep
+\end_layout
+
+\begin_layout Enumerate
 ctr+c and ctr+z
 \end_layout
 
 \begin_layout Enumerate
-cat
+fg
 \end_layout
 
 \begin_layout Section
@@ -475,6 +556,64 @@ examples:
 \end_layout
 
 \begin_layout Section
+Sudo make me a sandwich
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section will be introduced to the term sudo and why it is important.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should know what sudo is and understand
+ why sudo is not redundant
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+25 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+As students don't have sudo privillages in the labs time will be well spent
+ looking through xkcd comics
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+What is a user and what is a superuser/root
+\end_layout
+
+\begin_layout Enumerate
+The importance of sudo
+\end_layout
+
+\begin_layout Enumerate
+Examples of files that require sudo to be edited
+\end_layout
+
+\begin_layout Enumerate
+ssh
+\end_layout
+
+\begin_layout Section
 Pipelines
 \end_layout
 
@@ -535,60 +674,6 @@ sed
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Sudo make me a sandwich
-\end_layout
-
-\begin_layout Subsection
-Section Summery
-\end_layout
-
-\begin_layout Standard
-In this section will be introduced to the term sudo and why it is important.
-\end_layout
-
-\begin_layout Subsection
-Goal
-\end_layout
-
-\begin_layout Standard
-By the end of this section students should know what sudo is and understand
- why sudo is not redundant
-\end_layout
-
-\begin_layout Subsection
-Time
-\end_layout
-
-\begin_layout Standard
-25 minutes
-\end_layout
-
-\begin_layout Subsection
-Tasks
-\end_layout
-
-\begin_layout Standard
-As students don't have sudo privillages in the labs time will be well spent
- looking through xkcd comics
-\end_layout
-
-\begin_layout Subsection
-Points for lessons
-\end_layout
-
-\begin_layout Enumerate
-What is a user and what is a superuser/root
-\end_layout
-
-\begin_layout Enumerate
-The importance of sudo
-\end_layout
-
-\begin_layout Enumerate
-Examples of files that require sudo to be edited
 \end_layout
 
 \begin_layout Section
@@ -722,7 +807,8 @@ Points for lessons
 \end_layout
 
 \begin_layout Enumerate
-/etc/environment + explanation of environment variables
+/etc/environment + explanation of environment variables (e.g.
+ adding reposetories for installations)
 \end_layout
 
 \begin_layout Enumerate
@@ -790,15 +876,7 @@ Points for lessons
 \end_layout
 
 \begin_layout Enumerate
-man
-\end_layout
-
-\begin_layout Enumerate
 tail
-\end_layout
-
-\begin_layout Enumerate
-top
 \end_layout
 
 \begin_layout Enumerate
@@ -998,6 +1076,10 @@ Students will create a tmux session and in it split the screen into three,
 
 \begin_layout Subsection
 Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+alternatives such as screen
 \end_layout
 
 \begin_layout Enumerate
@@ -1204,10 +1286,6 @@ tar
 \end_layout
 
 \begin_layout Enumerate
-ps
-\end_layout
-
-\begin_layout Enumerate
 date
 \end_layout
 
@@ -1251,6 +1329,10 @@ No tasks for this section
 
 \begin_layout Subsection
 Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+install from source
 \end_layout
 
 \begin_layout Enumerate
