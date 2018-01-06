@@ -1,0 +1,1265 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Introduction To Linux - Course Outline
+\end_layout
+
+\begin_layout Author
+Instructors: 
+\begin_inset Newline newline
+\end_inset
+
+Joshua Bruton
+\begin_inset Newline newline
+\end_inset
+
+Or Hanoch
+\begin_inset Newline newline
+\end_inset
+
+Devon Jarvis
+\begin_inset Newline newline
+\end_inset
+
+Nathan Michlio
+\begin_inset Newline newline
+\end_inset
+
+Meir Rosendorff
+\end_layout
+
+\begin_layout Part
+General
+\end_layout
+
+\begin_layout Section*
+Target Students
+\end_layout
+
+\begin_layout Standard
+1st year students who want to do a complete 3 year COMS major aswell as
+ anyone interested in getting started with linux.
+ 
+\end_layout
+
+\begin_layout Section*
+Time Per Week
+\end_layout
+
+\begin_layout Standard
+2 x 45 minutes
+\end_layout
+
+\begin_layout Section*
+Course Goal
+\end_layout
+
+\begin_layout Standard
+To help COMS students familliarize themselves with linux - which in turn
+ will help them in there studies.
+ Also to spread the love of linux around and in turn make the world a slightly
+ better place.
+\end_layout
+
+\begin_layout Part
+Detailed Sections
+\end_layout
+
+\begin_layout Section
+Introduction + general tip
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will be told what will be taught in this course
+ and be given general tips to keep in mind that will help them in there
+ learning, in this course aswell as in any other course.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should have a general idea of what this
+ course is about, whether they want to attend it and how to study for this
+ course.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Format Linux on your laptop if you have one
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+Introduction to instructors - who we are
+\end_layout
+
+\begin_layout Enumerate
+What to expect from the course
+\end_layout
+
+\begin_layout Enumerate
+Going over the chapters the course
+\end_layout
+
+\begin_layout Enumerate
+Google and stack overflow
+\end_layout
+
+\begin_layout Enumerate
+<website to bash tutorial>
+\end_layout
+
+\begin_layout Enumerate
+Formatting Linux - virtualbox vs.
+ dual boot vs.
+ full format
+\end_layout
+
+\begin_layout Enumerate
+Things will break - alot - dont be scared to experiment!
+\end_layout
+
+\begin_layout Section
+What is Linux - basic history and theory
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section we will cover the basics of the origin of linux and some
+ other linux basics such as what distros are.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should be familliar with the term GNU
+\backslash
+Linux, and the ideas of distros, desktop environments, software managers
+ and file systems, aswell as being familliar with some of the most popular
+ implementations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+and the difference between the OS as a whole and the kernel itself.
+ They should also be familiar with linux distros and big linux names such
+ as Red Hat, Ubuntu, Debian, CentOS and Suse, aswell as the ideas of desktop
+ environments and names like XFCE, KDE, GNOME.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+75 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+No tasks for this section
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+What is GNU vs what is Linux, Richard Stalman and Linus Torvalds
+\end_layout
+
+\begin_layout Enumerate
+What are distros (including forked distro examples) and what are desktop
+ environments
+\end_layout
+
+\begin_layout Enumerate
+The idea of a filesystem
+\end_layout
+
+\begin_layout Enumerate
+The idea of a package manager
+\end_layout
+
+\begin_layout Enumerate
+What is the Linux terminal and what is bash
+\end_layout
+
+\begin_layout Enumerate
+GPL and opensource
+\end_layout
+
+\begin_layout Section
+Basic commands
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will be introduced to the most basic linux commands
+ and will start experimenting with bash for the first time 
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should be able to navigate the filesystem
+ through the terminal and make, move and copy files.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will navigate around in there home folder, create directories and
+ move and delete them
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+pwd
+\end_layout
+
+\begin_layout Enumerate
+cd
+\end_layout
+
+\begin_layout Enumerate
+touch
+\end_layout
+
+\begin_layout Enumerate
+mkdir
+\end_layout
+
+\begin_layout Enumerate
+ls
+\end_layout
+
+\begin_layout Enumerate
+mv
+\end_layout
+
+\begin_layout Enumerate
+cp
+\end_layout
+
+\begin_layout Enumerate
+rm
+\end_layout
+
+\begin_layout Enumerate
+copy paste with ctr+shift
+\end_layout
+
+\begin_layout Enumerate
+ctr+c and ctr+z
+\end_layout
+
+\begin_layout Enumerate
+cat
+\end_layout
+
+\begin_layout Section
+The Linux file system
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will be introduced to the linux filesystem, aswell
+ as each directory in root and its perpose, and be given examples of different
+ files located in the different directories.
+ 
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should have the basic idea of what each
+ folder in root is for.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Navigate through the file system and look at the files from the examples
+ and other files.
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+All directories are files
+\end_layout
+
+\begin_layout Enumerate
+what each directory in / is
+\end_layout
+
+\begin_layout Enumerate
+what ~ is
+\end_layout
+
+\begin_layout Subsection
+examples:
+\end_layout
+
+\begin_layout Enumerate
+/dev/sda
+\end_layout
+
+\begin_layout Enumerate
+/proc/meminfo
+\end_layout
+
+\begin_layout Enumerate
+/proc/cpuinfo
+\end_layout
+
+\begin_layout Enumerate
+/proc/partitions
+\end_layout
+
+\begin_layout Enumerate
+/etc/environment
+\end_layout
+
+\begin_layout Enumerate
+/etc/issue
+\end_layout
+
+\begin_layout Enumerate
+/home/user/Desktop
+\end_layout
+
+\begin_layout Enumerate
+/mnt
+\end_layout
+
+\begin_layout Section
+Pipelines
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will be introduced to the concept of piplines and
+ the useful combination with grep
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should know how to use grep
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+15 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will practice using grep on outputs of cat, such as 'cat /proc/meminfo
+ | grep Total'
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+Explanation on what pipelines are
+\end_layout
+
+\begin_layout Enumerate
+grep
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+sed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sudo make me a sandwich
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section will be introduced to the term sudo and why it is important.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should know what sudo is and understand
+ why sudo is not redundant
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+25 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+As students don't have sudo privillages in the labs time will be well spent
+ looking through xkcd comics
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+What is a user and what is a superuser/root
+\end_layout
+
+\begin_layout Enumerate
+The importance of sudo
+\end_layout
+
+\begin_layout Enumerate
+Examples of files that require sudo to be edited
+\end_layout
+
+\begin_layout Section
+vim
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will be taught the basics of using the vim text
+ editor 
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should feel comfertable creating or
+ modifying a text file and editing it.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+90 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will create a text file and edit it, trying out the different capabliti
+es of vim
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+Existance of alternatives such as nano and emax
+\end_layout
+
+\begin_layout Enumerate
+Entering insert mode
+\end_layout
+
+\begin_layout Enumerate
+Saving and exiting
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+:setnumber
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Showing that it automatically color codes different file types
+\end_layout
+
+\begin_layout Enumerate
+Delete with dd
+\end_layout
+
+\begin_layout Enumerate
+/ for search
+\end_layout
+
+\begin_layout Enumerate
+.swp files
+\end_layout
+
+\begin_layout Section
+Important files
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will be introduced to some useful files and will
+ experiment in editing them.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should be aquanted with some system
+ files and feel comfortable editing them.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will add environment variables using /etc/config and using .bashrc
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+.bashrc
+\end_layout
+
+\begin_layout Enumerate
+/etc/environment + explanation of environment variables
+\end_layout
+
+\begin_layout Enumerate
+/etc/hosts + explanation of conversion of ip to urls
+\end_layout
+
+\begin_layout Enumerate
+/etc/hostname
+\end_layout
+
+\begin_layout Enumerate
+ifcfg files
+\end_layout
+
+\begin_layout Enumerate
+/dev/null
+\end_layout
+
+\begin_layout Enumerate
+/dev/zero
+\end_layout
+
+\begin_layout Section
+More Linux Commands
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will be introduced to some more useful linux commands.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should have some more tools to get around
+ linux and be able to do most of what is required when running linux as
+ a primary OS.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will create a file and change the permissions to it and see how
+ the changes take effect.
+ They will also take a look at the man page for apt-get
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+man
+\end_layout
+
+\begin_layout Enumerate
+tail
+\end_layout
+
+\begin_layout Enumerate
+top
+\end_layout
+
+\begin_layout Enumerate
+apt-get / yum / pacman / etc..
+\end_layout
+
+\begin_layout Enumerate
+chmod
+\end_layout
+
+\begin_layout Section
+Mounting
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will get aquanted with the term of mounting 
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should know how to manually mount and
+ unmount via terminal a device like a usb flash drive if it is not automatically
+ mounted or unmounted.
+ The students should know the purpose of /etc/fstab but wont know how to
+ edit it themselves.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+25 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will have a look at /etc/fstab.
+ If they have a usb available they will also plug it in, and mount and unmount
+ it.
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+Explain the consept of mounting
+\end_layout
+
+\begin_layout Enumerate
+why mount /home?
+\end_layout
+
+\begin_layout Enumerate
+Example of mounting
+\end_layout
+
+\begin_layout Enumerate
+/etc/fstab
+\end_layout
+
+\begin_layout Section
+ssh and remote copy
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will learn how to enter a remote computer via terminal,
+ aswell as copy files off of a remote computer.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should be able to access remote computers.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+35 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will take turns and ssh to there neighbers computer and create
+ a file on the desktop while there neighbor sees the file being created.
+ they will then copy that file to there own desktop using rcp and see it
+ being created.
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+Basic ssh
+\end_layout
+
+\begin_layout Enumerate
+rcp
+\end_layout
+
+\begin_layout Enumerate
+rsync
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ssh flags
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Keyless ssh
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+tmux
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will learn how to improve productivity and share
+ a terminal using tmux.
+ 
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should have a basic idea of the advantages
+ of tmux and how to use it.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will create a tmux session and in it split the screen into three,
+ 1st split horizontally and 2nd split the top screen vertically.
+ They will run 'top' on the lower screen, 'cat ~/.bashrc' in the top left
+ and 'man mkdir' in the top right.
+ They will then create a new window and run 'vim' in it.
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+Splitting screen
+\end_layout
+
+\begin_layout Enumerate
+Creating new window
+\end_layout
+
+\begin_layout Enumerate
+Attaching and detaching
+\end_layout
+
+\begin_layout Enumerate
+Logging in multiple times using ssh
+\end_layout
+
+\begin_layout Section
+Bash scripts
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will learn the basics of bash scripting, and bash
+ syntax.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should be able to create basic bash
+ scripts to automate basic tasks.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Create a bash script that downloads files of game data from the snake server.
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+# !/bin/bash
+\end_layout
+
+\begin_layout Enumerate
+Variablels
+\end_layout
+
+\begin_layout Enumerate
+if statements
+\end_layout
+
+\begin_layout Enumerate
+for loops
+\end_layout
+
+\begin_layout Enumerate
+wget
+\end_layout
+
+\begin_layout Section
+Git and Github
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will be introduced to git and github and how to
+ manage code and do version control.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should be able to open a github repository
+ for a new project and manage it.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will create a github account, create a repository, initialize a
+ local copy of the repository, add a file, add, commit and push to the repositor
+y.
+ They will then go online and see the file appear in the gui interface.
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+What is github
+\end_layout
+
+\begin_layout Enumerate
+what are branches
+\end_layout
+
+\begin_layout Enumerate
+git initialize
+\end_layout
+
+\begin_layout Enumerate
+git add
+\end_layout
+
+\begin_layout Enumerate
+git commit
+\end_layout
+
+\begin_layout Enumerate
+git push
+\end_layout
+
+\begin_layout Section
+Even More Linux Commands
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will be introduced to linux commands that are good
+ to know, but not necessary for daily linux use.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should be comfertable trying out different
+ linux commands and googling for them.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will try out the different linux commands mentioned and try to
+ see which hardware pieces they can see using 'lspci' and how much memory
+ is left on /home using 'df' 
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+lspci
+\end_layout
+
+\begin_layout Enumerate
+df
+\end_layout
+
+\begin_layout Enumerate
+tar
+\end_layout
+
+\begin_layout Enumerate
+ps
+\end_layout
+
+\begin_layout Enumerate
+date
+\end_layout
+
+\begin_layout Section
+More Advanced Linux Theory
+\end_layout
+
+\begin_layout Subsection
+Section Summery
+\end_layout
+
+\begin_layout Standard
+In this section students will be introduced to some more in depth linux
+ terms.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section should be able to watch a 'linux sucks' presentation
+ and understand and laugh about most of it.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+45 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+No tasks for this section
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+systemd
+\end_layout
+
+\begin_layout Enumerate
+X and wayland
+\end_layout
+
+\end_body
+\end_document
