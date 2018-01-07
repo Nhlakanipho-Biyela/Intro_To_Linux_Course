@@ -188,7 +188,8 @@ Tasks
 
 \begin_layout Standard
 No task.
- We give an example of ssh and tmux
+ We give an example of ssh and tmux.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -201,6 +202,10 @@ Introduction to instructors - who we are
 
 \begin_layout Enumerate
 What to expect from the course
+\end_layout
+
+\begin_layout Enumerate
+About CHPC
 \end_layout
 
 \begin_layout Enumerate
@@ -467,7 +472,7 @@ The Linux file system
 \end_layout
 
 \begin_layout Subsection
-Section Summery
+Section Summary
 \end_layout
 
 \begin_layout Standard
@@ -491,7 +496,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+60 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -517,6 +522,10 @@ what each directory in / is
 
 \begin_layout Enumerate
 what ~ is
+\end_layout
+
+\begin_layout Enumerate
+/root
 \end_layout
 
 \begin_layout Subsection
@@ -555,12 +564,16 @@ examples:
 /mnt
 \end_layout
 
+\begin_layout Enumerate
+/bin/ls
+\end_layout
+
 \begin_layout Section
 Sudo make me a sandwich
 \end_layout
 
 \begin_layout Subsection
-Section Summery
+Section Summary
 \end_layout
 
 \begin_layout Standard
@@ -614,11 +627,75 @@ ssh
 \end_layout
 
 \begin_layout Section
-Pipelines
+More Linux Commands
 \end_layout
 
 \begin_layout Subsection
-Section Summery
+Section Summary
+\end_layout
+
+\begin_layout Standard
+In this section students will be introduced to some more useful linux commands.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should have some more tools to get around
+ linux and be able to do most of what is required when running linux as
+ a primary OS.
+\end_layout
+
+\begin_layout Subsection
+Time
+\end_layout
+
+\begin_layout Standard
+30 minutes
+\end_layout
+
+\begin_layout Subsection
+Tasks
+\end_layout
+
+\begin_layout Standard
+Students will create a file and change the permissions to it and see how
+ the changes take effect.
+ They will also take a look at the man page for apt-get
+\end_layout
+
+\begin_layout Subsection
+Points for lessons
+\end_layout
+
+\begin_layout Enumerate
+apt-get / yum / pacman / etc..
+\end_layout
+
+\begin_layout Enumerate
+wget
+\end_layout
+
+\begin_layout Enumerate
+tar
+\end_layout
+
+\begin_layout Enumerate
+chmod
+\end_layout
+
+\begin_layout Enumerate
+less
+\end_layout
+
+\begin_layout Section
+Pipelines and streams
+\end_layout
+
+\begin_layout Subsection
+Section Summary
 \end_layout
 
 \begin_layout Standard
@@ -639,7 +716,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-15 minutes
+45 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -664,16 +741,27 @@ grep
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
 sed
 \end_layout
 
-\end_inset
+\begin_layout Enumerate
+tail
+\end_layout
 
+\begin_layout Enumerate
+Explanations of streams
+\end_layout
 
+\begin_layout Enumerate
+>>
+\end_layout
+
+\begin_layout Enumerate
+<<
+\end_layout
+
+\begin_layout Enumerate
+echo
 \end_layout
 
 \begin_layout Section
@@ -681,7 +769,7 @@ vim
 \end_layout
 
 \begin_layout Subsection
-Section Summery
+Section Summary
 \end_layout
 
 \begin_layout Standard
@@ -715,12 +803,24 @@ Students will create a text file and edit it, trying out the different capabliti
 es of vim
 \end_layout
 
+\begin_layout Standard
+:setnumber
+\end_layout
+
+\begin_layout Standard
+vim config file
+\end_layout
+
+\begin_layout Standard
+end of page
+\end_layout
+
 \begin_layout Subsection
 Points for lessons
 \end_layout
 
 \begin_layout Enumerate
-Existance of alternatives such as nano and emax
+Existance of alternatives such as nano and emacs gedit
 \end_layout
 
 \begin_layout Enumerate
@@ -753,6 +853,10 @@ Delete with dd
 \end_layout
 
 \begin_layout Enumerate
+go to line using :<number>
+\end_layout
+
+\begin_layout Enumerate
 / for search
 \end_layout
 
@@ -765,7 +869,7 @@ Important files
 \end_layout
 
 \begin_layout Subsection
-Section Summery
+Section Summary
 \end_layout
 
 \begin_layout Standard
@@ -798,12 +902,20 @@ Tasks
 Students will add environment variables using /etc/config and using .bashrc
 \end_layout
 
+\begin_layout Enumerate
+/etc/hostname
+\end_layout
+
 \begin_layout Subsection
 Points for lessons
 \end_layout
 
 \begin_layout Enumerate
-.bashrc
+.bashrc and .bash_profile
+\end_layout
+
+\begin_layout Enumerate
+/etc/profile
 \end_layout
 
 \begin_layout Enumerate
@@ -816,11 +928,11 @@ Points for lessons
 \end_layout
 
 \begin_layout Enumerate
-/etc/hostname
+ifcfg + vim /etc/NetworkManager/system-connections/
 \end_layout
 
 \begin_layout Enumerate
-ifcfg files
+vim /etc/resolv.conf
 \end_layout
 
 \begin_layout Enumerate
@@ -831,60 +943,8 @@ ifcfg files
 /dev/zero
 \end_layout
 
-\begin_layout Section
-More Linux Commands
-\end_layout
-
-\begin_layout Subsection
-Section Summery
-\end_layout
-
-\begin_layout Standard
-In this section students will be introduced to some more useful linux commands.
-\end_layout
-
-\begin_layout Subsection
-Goal
-\end_layout
-
-\begin_layout Standard
-By the end of this section students should have some more tools to get around
- linux and be able to do most of what is required when running linux as
- a primary OS.
-\end_layout
-
-\begin_layout Subsection
-Time
-\end_layout
-
-\begin_layout Standard
-45 minutes
-\end_layout
-
-\begin_layout Subsection
-Tasks
-\end_layout
-
-\begin_layout Standard
-Students will create a file and change the permissions to it and see how
- the changes take effect.
- They will also take a look at the man page for apt-get
-\end_layout
-
-\begin_layout Subsection
-Points for lessons
-\end_layout
-
 \begin_layout Enumerate
-tail
-\end_layout
-
-\begin_layout Enumerate
-apt-get / yum / pacman / etc..
-\end_layout
-
-\begin_layout Enumerate
-chmod
+source
 \end_layout
 
 \begin_layout Section
@@ -892,7 +952,7 @@ Mounting
 \end_layout
 
 \begin_layout Subsection
-Section Summery
+Section Summary
 \end_layout
 
 \begin_layout Standard
@@ -916,7 +976,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-25 minutes
+35 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -946,6 +1006,14 @@ Example of mounting
 \end_layout
 
 \begin_layout Enumerate
+dmesg
+\end_layout
+
+\begin_layout Enumerate
+df
+\end_layout
+
+\begin_layout Enumerate
 /etc/fstab
 \end_layout
 
@@ -954,7 +1022,7 @@ ssh and remote copy
 \end_layout
 
 \begin_layout Subsection
-Section Summery
+Section Summary
 \end_layout
 
 \begin_layout Standard
@@ -1036,7 +1104,7 @@ tmux
 \end_layout
 
 \begin_layout Subsection
-Section Summery
+Section Summary
 \end_layout
 
 \begin_layout Standard
@@ -1072,6 +1140,10 @@ Students will create a tmux session and in it split the screen into three,
  They will run 'top' on the lower screen, 'cat ~/.bashrc' in the top left
  and 'man mkdir' in the top right.
  They will then create a new window and run 'vim' in it.
+\end_layout
+
+\begin_layout Standard
+change window sizes
 \end_layout
 
 \begin_layout Subsection
@@ -1125,7 +1197,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+90 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -1145,7 +1217,7 @@ Points for lessons
 \end_layout
 
 \begin_layout Enumerate
-Variablels
+Variables
 \end_layout
 
 \begin_layout Enumerate
@@ -1154,10 +1226,6 @@ if statements
 
 \begin_layout Enumerate
 for loops
-\end_layout
-
-\begin_layout Enumerate
-wget
 \end_layout
 
 \begin_layout Section
@@ -1187,7 +1255,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+90 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -1210,11 +1278,15 @@ What is github
 \end_layout
 
 \begin_layout Enumerate
-what are branches
+what repositories and what are branches
 \end_layout
 
 \begin_layout Enumerate
-git initialize
+setup git username and email
+\end_layout
+
+\begin_layout Enumerate
+git init
 \end_layout
 
 \begin_layout Enumerate
@@ -1278,15 +1350,23 @@ lspci
 \end_layout
 
 \begin_layout Enumerate
-df
-\end_layout
-
-\begin_layout Enumerate
-tar
+dh
 \end_layout
 
 \begin_layout Enumerate
 date
+\end_layout
+
+\begin_layout Enumerate
+zip
+\end_layout
+
+\begin_layout Enumerate
+export
+\end_layout
+
+\begin_layout Enumerate
+service network restart
 \end_layout
 
 \begin_layout Section
@@ -1337,6 +1417,10 @@ install from source
 
 \begin_layout Enumerate
 systemd
+\end_layout
+
+\begin_layout Enumerate
+mir
 \end_layout
 
 \begin_layout Enumerate
