@@ -423,8 +423,19 @@ Processes
 Section Summery
 \end_layout
 
+\begin_layout Standard
+In this section students will learn the basic idea of a process (in user
+ terms, not in OS terms) and be introduced to basic commands in order to
+ manage them 
+\end_layout
+
 \begin_layout Subsection
 Goal
+\end_layout
+
+\begin_layout Standard
+By the end of this section students should be able to look at processes
+ and stop or kill processes they determine are problematic or stuck.
 \end_layout
 
 \begin_layout Subsection
@@ -440,7 +451,8 @@ Tasks
 \end_layout
 
 \begin_layout Standard
-No tasks for this section
+students will run firefox, look at how many resources it takes, get its
+ pid and kill it.
 \end_layout
 
 \begin_layout Subsection
@@ -453,6 +465,10 @@ ps
 
 \begin_layout Enumerate
 top
+\end_layout
+
+\begin_layout Enumerate
+kill
 \end_layout
 
 \begin_layout Enumerate
@@ -1367,6 +1383,10 @@ export
 
 \begin_layout Enumerate
 service network restart
+\end_layout
+
+\begin_layout Enumerate
+ln
 \end_layout
 
 \begin_layout Section
