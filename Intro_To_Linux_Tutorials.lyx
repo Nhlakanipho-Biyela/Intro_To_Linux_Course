@@ -1,0 +1,315 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Intro To Linux - Tutorials
+\end_layout
+
+\begin_layout Author
+Tutors:
+\begin_inset Newline newline
+\end_inset
+
+Joshua Bruton
+\begin_inset Newline newline
+\end_inset
+
+Or Hanoch
+\begin_inset Newline newline
+\end_inset
+
+Devon Jarvis
+\begin_inset Newline newline
+\end_inset
+
+Nathan Michleo
+\begin_inset Newline newline
+\end_inset
+
+IntroMeir Rosendorff
+\end_layout
+
+\begin_layout Section
+Tutorial 1 - Introduction + general tips
+\end_layout
+
+\begin_layout Standard
+No task.
+ We give an example of running ssh and then tmux in a remote computer.
+\end_layout
+
+\begin_layout Enumerate
+ssh into remote pc
+\end_layout
+
+\begin_layout Enumerate
+tmux a into a pre-made session in the format we used for programming snake.
+\end_layout
+
+\begin_layout Enumerate
+On local computer show copying files using wildcards while its being done
+ on gui
+\end_layout
+
+\begin_layout Enumerate
+show mass rename
+\end_layout
+
+\begin_layout Section
+Tutorial 2 - What is Linux
+\end_layout
+
+\begin_layout Standard
+No Tasks for this session
+\end_layout
+
+\begin_layout Section
+Tutorial 3 - Basic commands
+\end_layout
+
+\begin_layout Enumerate
+Search duckduckgo/google for how to list files and directories with human
+ readable sizes (I.e 4.0K instead of 4096).
+ What is the size of your desktop?
+\end_layout
+
+\begin_layout Enumerate
+Go to your desktop folder and create a directory called “ITL_Tut1”
+\end_layout
+
+\begin_layout Enumerate
+Go inside the directory you created and create a file “Tux_I_Am_Your_Father”
+\end_layout
+
+\begin_layout Enumerate
+Change the name of the file to “In_Tux_We_Trust”
+\end_layout
+
+\begin_layout Enumerate
+Delete the file
+\end_layout
+
+\begin_layout Enumerate
+Go back a directory (back to Desktop) and copy the ITL_Tut1 directory to
+ ITL_Tut1_old
+\end_layout
+
+\begin_layout Enumerate
+Delete ITL_Tut1_old
+\end_layout
+
+\begin_layout Section
+Tutorial 4 - Processes
+\end_layout
+
+\begin_layout Enumerate
+Open Firefox
+\end_layout
+
+\begin_layout Enumerate
+Open different tabs and see how that affects memory (RAM) usage
+\end_layout
+
+\begin_layout Enumerate
+Use duckduckgo/google and find the flag that shows you all current running
+ processes.
+ find firefox and its PID (Advanced students can search how to use 
+\begin_inset Quotes eld
+\end_inset
+
+grep
+\begin_inset Quotes erd
+\end_inset
+
+ - it will be taught later but can help now)
+\end_layout
+
+\begin_layout Enumerate
+use the kill command to close firefox forcefully
+\end_layout
+
+\begin_layout Section
+Tutorial 5 - The Linux File System
+\end_layout
+
+\begin_layout Standard
+Use cat to look at different files in your file system and find out the
+ following.
+ Note - using duckduckgo/google to help you is advisable.
+\end_layout
+
+\begin_layout Enumerate
+How much memory (RAM) does your computer have?
+\end_layout
+
+\begin_layout Enumerate
+Which cpu do you have?
+\end_layout
+
+\begin_layout Enumerate
+Which environment variables are predefined?
+\end_layout
+
+\begin_layout Enumerate
+Which partitions do you have on your hard drive? Which one do you think
+ stores your data?
+\end_layout
+
+\begin_layout Section
+Tutorial 6 - Sudo make me a sandwich
+\end_layout
+
+\begin_layout Enumerate
+ssh into your user on the onion server into your virtual machine <-- ADD
+ EXPLANATION ON HOW TO DO THIS -->
+\end_layout
+
+\begin_layout Enumerate
+In this environment you can experament and break whatever you want! go for
+ it!
+\end_layout
+
+\begin_layout Enumerate
+Try moving /etc/environments without using sudo.
+ Try it with sudo and then move it back.
+\end_layout
+
+\begin_layout Enumerate
+-------------- need more ideas ------------------
+\end_layout
+
+\begin_layout Section
+Tutorial 7 - More Linux Commands
+\end_layout
+
+\begin_layout Enumerate
+ssh into your user on the onion server into your virtual machine
+\end_layout
+
+\begin_layout Enumerate
+install cowcurses (and enjoy..)
+\end_layout
+
+\begin_layout Enumerate
+use wget to download a the installation tar file for <-- to be filled -->
+\end_layout
+
+\begin_layout Enumerate
+extract the file you downloaded
+\end_layout
+
+\begin_layout Enumerate
+Change the permissions on the folder that has been created after you extracted
+ it to give it full permissions to everyone
+\end_layout
+
+\begin_layout Enumerate
+delete the folder without using sudo
+\end_layout
+
+\begin_layout Section
+Tutorial 8 - Pipelines and streams
+\end_layout
+
+\begin_layout Enumerate
+Open firefox
+\end_layout
+
+\begin_layout Enumerate
+find the command to list all running processes and use grep to find firefox
+\end_layout
+
+\begin_layout Enumerate
+find the command to list the current environment variables and use grep
+ to find out which proxy variables you have running
+\end_layout
+
+\begin_layout Enumerate
+use >> to put all the current environment variables into a file
+\end_layout
+
+\begin_layout Enumerate
+create a file called 
+\begin_inset Quotes eld
+\end_inset
+
+Not_Another_File
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+use echo <-- to be continued -->
+\end_layout
+
+\end_body
+\end_document

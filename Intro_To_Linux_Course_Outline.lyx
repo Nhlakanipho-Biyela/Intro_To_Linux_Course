@@ -618,8 +618,8 @@ Tasks
 \end_layout
 
 \begin_layout Standard
-As students don't have sudo privillages in the labs time will be well spent
- looking through xkcd comics
+Students will ssh into the onion server in there own virtual machine and
+ experiment with system files and restricted commands.
 \end_layout
 
 \begin_layout Subsection
@@ -703,7 +703,7 @@ chmod
 \end_layout
 
 \begin_layout Enumerate
-less
+head/tail
 \end_layout
 
 \begin_layout Section
@@ -757,11 +757,11 @@ grep
 \end_layout
 
 \begin_layout Enumerate
-sed
+less
 \end_layout
 
 \begin_layout Enumerate
-tail
+sed
 \end_layout
 
 \begin_layout Enumerate
