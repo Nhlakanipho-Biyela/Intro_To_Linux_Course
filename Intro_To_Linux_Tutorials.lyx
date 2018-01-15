@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
@@ -9,16 +11,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -135,6 +137,91 @@ Tutorial 3 - Basic commands
 \end_layout
 
 \begin_layout Enumerate
+Find which directory you are in using `pwd`
+\end_layout
+
+\begin_layout Enumerate
+List the current files and folders in your current directory using `ls`.
+\end_layout
+
+\begin_layout Enumerate
+Go into your Desktop directory using `cd Desktop`
+\end_layout
+
+\begin_layout Enumerate
+create a directory called 
+\begin_inset Quotes eld
+\end_inset
+
+Tutorials
+\begin_inset Quotes erd
+\end_inset
+
+ using `mkdir Tutorials`
+\end_layout
+
+\begin_layout Enumerate
+go inside the new directory using `cd Tutorials`
+\end_layout
+
+\begin_layout Enumerate
+make a file called 
+\begin_inset Quotes eld
+\end_inset
+
+hello_linux
+\begin_inset Quotes erd
+\end_inset
+
+ using `touch hello_linux`
+\end_layout
+
+\begin_layout Enumerate
+change the file name to 
+\begin_inset Quotes eld
+\end_inset
+
+goodbye_linux
+\begin_inset Quotes erd
+\end_inset
+
+ using `mv hello_linux goodbye_linux`
+\end_layout
+
+\begin_layout Enumerate
+delete the file 
+\begin_inset Quotes eld
+\end_inset
+
+goodbye_linux
+\begin_inset Quotes erd
+\end_inset
+
+ using `rm goodbye_linux`
+\end_layout
+
+\begin_layout Enumerate
+go back to your Desktop directory using `cd ..`
+\end_layout
+
+\begin_layout Enumerate
+remove the directory 
+\begin_inset Quotes eld
+\end_inset
+
+tutorials
+\begin_inset Quotes erd
+\end_inset
+
+ using `rm -rf tutorials`
+\end_layout
+
+\begin_layout Enumerate
+Extra excersises
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
 Search duckduckgo/google for how to list files and directories with human
  readable sizes (I.e 4.0K instead of 4096).
  What is the size of your desktop?
@@ -165,6 +252,7 @@ Go back a directory (back to Desktop) and copy the ITL_Tut1 directory to
 Delete ITL_Tut1_old
 \end_layout
 
+\end_deeper
 \begin_layout Section
 Tutorial 4 - Processes
 \end_layout
@@ -227,8 +315,8 @@ Tutorial 6 - Sudo make me a sandwich
 \end_layout
 
 \begin_layout Enumerate
-ssh into your user on the onion server into your virtual machine <-- ADD
- EXPLANATION ON HOW TO DO THIS -->
+ssh into your user on the onion server into your virtual machine <– ADD
+ EXPLANATION ON HOW TO DO THIS –>
 \end_layout
 
 \begin_layout Enumerate
@@ -242,7 +330,7 @@ Try moving /etc/environments without using sudo.
 \end_layout
 
 \begin_layout Enumerate
--------------- need more ideas ------------------
+————– need more ideas ——————
 \end_layout
 
 \begin_layout Section
@@ -258,7 +346,7 @@ install cowcurses (and enjoy..)
 \end_layout
 
 \begin_layout Enumerate
-use wget to download a the installation tar file for <-- to be filled -->
+use wget to download a the installation tar file for <– to be filled –>
 \end_layout
 
 \begin_layout Enumerate
@@ -308,7 +396,7 @@ Not_Another_File
 \end_layout
 
 \begin_layout Enumerate
-use echo <-- to be continued -->
+use echo <– to be continued –>
 \end_layout
 
 \end_body
