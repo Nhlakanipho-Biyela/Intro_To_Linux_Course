@@ -108,7 +108,7 @@ Target Students
 
 \begin_layout Standard
 1st year students who want to do a complete 3 year COMS major as well as
- anyone interested in getting started with linux.
+ anyone interested in getting started with Linux.
  
 \end_layout
 
@@ -137,7 +137,17 @@ Setup
 \end_layout
 
 \begin_layout Standard
-Setup virtual machine server using open nebula??
+Lectures will be done in one of the MSL labs.
+ Lecture slides will be used.
+\begin_inset Newline newline
+\end_inset
+
+For tutorials - in the beginning vmuser will be used on the local machine.
+ Around the section about sudo ssh will be taught and then a virtual machine
+ server, hereby the onion server, running open nebula will be used.
+ Each student will have his own virtual machine set up and will ssh into
+ it.
+ 
 \end_layout
 
 \begin_layout Section*
@@ -145,7 +155,11 @@ Course Website
 \end_layout
 
 \begin_layout Standard
-Github repository
+Public Github repository:
+\begin_inset Newline newline
+\end_inset
+
+https://github.com/Project-Onion/Intro_To_Linux_Course 
 \end_layout
 
 \begin_layout Part
@@ -190,7 +204,7 @@ Tasks
 
 \begin_layout Standard
 No task.
- We give an example of ssh and tmux.
+ We give an example of ssh and tmux to cause excitement.
  
 \end_layout
 
@@ -219,7 +233,7 @@ Google and stack overflow
 \end_layout
 
 \begin_layout Enumerate
-<website to bash tutorial>
+website for Linux and bash tutorial - http://linuxcommand.org/index.php
 \end_layout
 
 \begin_layout Enumerate
@@ -253,7 +267,7 @@ Goal
 By the end of this section students should be familiar with the term GNU
 \backslash
 Linux, and the ideas of distros, desktop environments, software managers
- and file systems, aswell as being familliar with some of the most popular
+ and file systems, as well as being familiar with some of the most popular
  implementations.
 \end_layout
 
@@ -379,6 +393,11 @@ man
 \end_layout
 
 \begin_layout Enumerate
+Navigation:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
 pwd
 \end_layout
 
@@ -390,6 +409,30 @@ ls
 cd
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Enumerate
+########################## relative pathnames vs absolute pathnames
+\end_layout
+
+\begin_layout Enumerate
+########################## .
+ and ..
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+File and Directory Manipulation:
+\end_layout
+
+\begin_deeper
 \begin_layout Enumerate
 touch
 \end_layout
@@ -410,6 +453,20 @@ cp
 rm
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+########################## Wildcards
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 copy paste with ctr+shift
 \end_layout
@@ -547,6 +604,19 @@ what ~ is
 /root
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+########################### file extensions don't exist
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 examples:
 \end_layout
@@ -621,8 +691,8 @@ Tasks
 \end_layout
 
 \begin_layout Standard
-Students will ssh into the onion server in there own virtual machine and
- experiment with system files and restricted commands.
+Students will ssh into the onion server (running open nebula) into there
+ own virtual machine and experiment with system files and restricted commands.
 \end_layout
 
 \begin_layout Subsection
@@ -707,6 +777,19 @@ chmod
 
 \begin_layout Enumerate
 head/tail
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+######################### ln
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -839,7 +922,7 @@ Points for lessons
 \end_layout
 
 \begin_layout Enumerate
-Existance of alternatives such as nano and emacs gedit
+Existence of alternatives such as nano and emacs gedit
 \end_layout
 
 \begin_layout Enumerate
@@ -848,19 +931,6 @@ Entering insert mode
 
 \begin_layout Enumerate
 Saving and exiting
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-:setnumber
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Enumerate
@@ -1090,32 +1160,6 @@ rcp
 
 \begin_layout Enumerate
 rsync
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-ssh flags
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Keyless ssh
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
