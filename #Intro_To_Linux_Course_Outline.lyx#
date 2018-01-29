@@ -1367,7 +1367,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-25 minutes (0.5 Lecture) 
+45 minutes (0.5 Lecture) 
 \end_layout
 
 \begin_layout Subsection
@@ -1408,6 +1408,10 @@ export
 service network restart
 \end_layout
 
+\begin_layout Enumerate
+ln
+\end_layout
+
 \begin_layout Section
 More Advanced Linux Theory
 \end_layout
@@ -1435,7 +1439,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-25 minutes (0.5 Lecture)
+45 minutes (1 Lecture)
 \end_layout
 
 \begin_layout Subsection

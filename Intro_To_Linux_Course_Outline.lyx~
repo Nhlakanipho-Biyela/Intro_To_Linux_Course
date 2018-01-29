@@ -293,7 +293,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes (1 Lecture)
+45 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -364,7 +364,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes (1 Lecture)
+45 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -485,7 +485,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes (1 Lecture)
+45 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -554,7 +554,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes (1 Lecture)
+60 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -656,7 +656,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-25 minutes (0.5 Lectures)
+25 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -715,7 +715,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-30 minutes (0.5 Lectures)
+30 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -782,7 +782,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes (1 Lecture)
+45 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -857,7 +857,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes (1 Lecture)
+90 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -944,7 +944,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes (1 Lecture)
+45 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -1029,7 +1029,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-25 minutes (0.5 Lecture)
+35 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -1096,7 +1096,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-25 minutes (0.5 Lectures)
+35 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -1154,7 +1154,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes (1 Lecture)
+45 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -1224,7 +1224,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-90 minutes (2 Lectures)
+90 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -1294,7 +1294,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-90 minutes (2 Lecture)
+90 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -1367,7 +1367,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-25 minutes (0.5 Lecture) 
+45 minutes
 \end_layout
 
 \begin_layout Subsection
@@ -1408,6 +1408,10 @@ export
 service network restart
 \end_layout
 
+\begin_layout Enumerate
+ln
+\end_layout
+
 \begin_layout Section
 More Advanced Linux Theory
 \end_layout
@@ -1435,7 +1439,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-25 minutes (0.5 Lecture)
+45 minutes
 \end_layout
 
 \begin_layout Subsection
