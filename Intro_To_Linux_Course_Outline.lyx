@@ -246,6 +246,14 @@ Formatting Linux - virtualbox vs.
 Things will break - a lot - don't be scared to experiment!
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Or and Meir
+\end_layout
+
 \begin_layout Section
 What is Linux - basic history and theory
 \end_layout
@@ -335,6 +343,14 @@ What is the Linux terminal and what is bash
 
 \begin_layout Enumerate
 GPL and open source
+\end_layout
+
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Or and Josh
 \end_layout
 
 \begin_layout Section
@@ -457,6 +473,14 @@ copy paste with ctr+shift
 cat
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Devon
+\end_layout
+
 \begin_layout Section
 Processes
 \end_layout
@@ -523,6 +547,14 @@ ctr+c and ctr+z
 
 \begin_layout Enumerate
 fg
+\end_layout
+
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Meir and Josh
 \end_layout
 
 \begin_layout Section
@@ -630,6 +662,14 @@ examples:
 /bin/ls
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Or and Nathan
+\end_layout
+
 \begin_layout Section
 Sudo make me a sandwich
 \end_layout
@@ -686,6 +726,14 @@ Examples of files that require sudo to be edited
 
 \begin_layout Enumerate
 ssh
+\end_layout
+
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Devon and Josh
 \end_layout
 
 \begin_layout Section
@@ -754,6 +802,14 @@ head/tail
 
 \begin_layout Enumerate
 ln
+\end_layout
+
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Devon and Josh
 \end_layout
 
 \begin_layout Section
@@ -828,6 +884,14 @@ Explanations of streams
 
 \begin_layout Enumerate
 echo
+\end_layout
+
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Meir
 \end_layout
 
 \begin_layout Section
@@ -917,6 +981,14 @@ go to line using :<number>
 .swp files
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Devon and Or
+\end_layout
+
 \begin_layout Section
 Important files
 \end_layout
@@ -1000,6 +1072,14 @@ vim /etc/resolv.conf
 source
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Or and Meir
+\end_layout
+
 \begin_layout Section
 Mounting
 \end_layout
@@ -1070,6 +1150,14 @@ df
 /etc/fstab
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Devon
+\end_layout
+
 \begin_layout Section
 ssh and remote copy
 \end_layout
@@ -1124,6 +1212,14 @@ rcp
 
 \begin_layout Enumerate
 rsync
+\end_layout
+
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Devon
 \end_layout
 
 \begin_layout Section
@@ -1197,6 +1293,14 @@ Attaching and detaching
 Logging in multiple times using ssh
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Or and Josh
+\end_layout
+
 \begin_layout Section
 Shell Scripting Using Bash
 \end_layout
@@ -1265,6 +1369,14 @@ for and while loops
 
 \begin_layout Enumerate
 using ssh -t in bash scripts
+\end_layout
+
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Meir and Devon
 \end_layout
 
 \begin_layout Section
@@ -1340,6 +1452,14 @@ git commit
 git push
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Josh
+\end_layout
+
 \begin_layout Section
 Even More Linux Commands
 \end_layout
@@ -1408,6 +1528,14 @@ export
 service network restart
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Meir and Devon
+\end_layout
+
 \begin_layout Section
 More Advanced Linux Theory
 \end_layout
@@ -1460,6 +1588,14 @@ systemd
 
 \begin_layout Enumerate
 X and wayland
+\end_layout
+
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Or
 \end_layout
 
 \end_body

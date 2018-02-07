@@ -246,6 +246,14 @@ Formatting Linux - virtualbox vs.
 Things will break - a lot - don't be scared to experiment!
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Devon and Meir
+\end_layout
+
 \begin_layout Section
 What is Linux - basic history and theory
 \end_layout
@@ -293,7 +301,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+45 minutes (1 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -337,6 +345,14 @@ What is the Linux terminal and what is bash
 GPL and open source
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Or and Josh
+\end_layout
+
 \begin_layout Section
 Basic commands
 \end_layout
@@ -364,7 +380,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+45 minutes (1 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -457,6 +473,14 @@ copy paste with ctr+shift
 cat
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Devon
+\end_layout
+
 \begin_layout Section
 Processes
 \end_layout
@@ -485,7 +509,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+45 minutes (1 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -525,6 +549,14 @@ ctr+c and ctr+z
 fg
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Meir and Josh
+\end_layout
+
 \begin_layout Section
 The Linux file-system
 \end_layout
@@ -554,7 +586,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-60 minutes
+45 minutes (1 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -630,6 +662,14 @@ examples:
 /bin/ls
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Or and Nathan
+\end_layout
+
 \begin_layout Section
 Sudo make me a sandwich
 \end_layout
@@ -656,7 +696,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-25 minutes
+25 minutes (0.5 Lectures)
 \end_layout
 
 \begin_layout Subsection
@@ -688,6 +728,14 @@ Examples of files that require sudo to be edited
 ssh
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Devon and Josh
+\end_layout
+
 \begin_layout Section
 More Linux Commands
 \end_layout
@@ -715,7 +763,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-30 minutes
+30 minutes (0.5 Lectures)
 \end_layout
 
 \begin_layout Subsection
@@ -756,6 +804,14 @@ head/tail
 ln
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Devon and Josh
+\end_layout
+
 \begin_layout Section
 Pipelines and streams
 \end_layout
@@ -782,7 +838,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+45 minutes (1 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -830,6 +886,14 @@ Explanations of streams
 echo
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Meir
+\end_layout
+
 \begin_layout Section
 vim
 \end_layout
@@ -857,7 +921,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-90 minutes
+45 minutes (1 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -917,6 +981,14 @@ go to line using :<number>
 .swp files
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Devon and Or
+\end_layout
+
 \begin_layout Section
 Important files
 \end_layout
@@ -944,7 +1016,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+45 minutes (1 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -1000,6 +1072,14 @@ vim /etc/resolv.conf
 source
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Josh and Meir
+\end_layout
+
 \begin_layout Section
 Mounting
 \end_layout
@@ -1029,7 +1109,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-35 minutes
+25 minutes (0.5 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -1070,6 +1150,14 @@ df
 /etc/fstab
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Devon
+\end_layout
+
 \begin_layout Section
 ssh and remote copy
 \end_layout
@@ -1096,7 +1184,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-35 minutes
+25 minutes (0.5 Lectures)
 \end_layout
 
 \begin_layout Subsection
@@ -1124,6 +1212,14 @@ rcp
 
 \begin_layout Enumerate
 rsync
+\end_layout
+
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Devon
 \end_layout
 
 \begin_layout Section
@@ -1154,7 +1250,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+45 minutes (1 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -1197,6 +1293,14 @@ Attaching and detaching
 Logging in multiple times using ssh
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Or and Josh
+\end_layout
+
 \begin_layout Section
 Shell Scripting Using Bash
 \end_layout
@@ -1224,7 +1328,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-90 minutes
+90 minutes (2 Lectures)
 \end_layout
 
 \begin_layout Subsection
@@ -1267,6 +1371,14 @@ for and while loops
 using ssh -t in bash scripts
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Meir and Devon
+\end_layout
+
 \begin_layout Section
 Git and Github
 \end_layout
@@ -1294,7 +1406,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-90 minutes
+90 minutes (2 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -1340,6 +1452,14 @@ git commit
 git push
 \end_layout
 
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Josh
+\end_layout
+
 \begin_layout Section
 Even More Linux Commands
 \end_layout
@@ -1367,7 +1487,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+25 minutes (0.5 Lecture) 
 \end_layout
 
 \begin_layout Subsection
@@ -1408,8 +1528,12 @@ export
 service network restart
 \end_layout
 
-\begin_layout Enumerate
-ln
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Meir and Devon
 \end_layout
 
 \begin_layout Section
@@ -1439,7 +1563,7 @@ Time
 \end_layout
 
 \begin_layout Standard
-45 minutes
+25 minutes (0.5 Lecture)
 \end_layout
 
 \begin_layout Subsection
@@ -1464,6 +1588,14 @@ systemd
 
 \begin_layout Enumerate
 X and wayland
+\end_layout
+
+\begin_layout Subsection
+Lecturers
+\end_layout
+
+\begin_layout Standard
+Nathan and Or
 \end_layout
 
 \end_body
