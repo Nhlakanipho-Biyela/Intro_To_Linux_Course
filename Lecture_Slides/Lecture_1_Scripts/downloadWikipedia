@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#Downloads a number of random wikipedia pages
+#and puts them in a new folder it creates on desktop
+#User inputs the number of files requested
+
+total=$1
+
+mkdir ~/Desktop/wikipediaDownloads
+cd ~/Desktop/wikipediaDownloads
+
+
+for ((i=1; i<=$total; i+=1))
+do
+	URL=$(curl -Ls -o /dev/null -w "%{url_effective}\n" https://en.wikipedia.org/wiki/Special:Random -I -S)
+	echo "Downloading $i/$total : $URL" 
+	wget $URL -o /dev/null
+done
+
+echo 
+echo "Downloaded all $total"
+
+cd -

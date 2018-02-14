@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#Downloads the first n xkcd pages
+#and puts them in a new folder it creates on desktop
+#User inputs the number of files requested
+
+total=$1
+
+mkdir ~/Desktop/xkcdDownloads
+cd ~/Desktop/xkcdDownloads
+
+
+for ((i=1; i<=$total; i+=1))
+do
+	echo "Downloading $i/$total" 
+	wget https://xkcd.com/$i/ -o /dev/null
+done
+
+echo 
+echo "Downloaded all $total"
+
+cd -
