@@ -107,18 +107,16 @@ Target Students
 \end_layout
 
 \begin_layout Standard
-1st year students who want to do a complete 3 year COMS major as well as
- anyone interested in getting started with Linux.
+1st year students as well as anyone interested in getting started with Linux.
  
 \end_layout
 
 \begin_layout Section*
-Time Per Week
+Time and Venue
 \end_layout
 
 \begin_layout Standard
-Wednesdays (E block): 14:00 - 16:00 - Normal Lectures, 16:00 - 17:00 extra
- tut session
+Mondays & Thursdays Lunch: 13:30 - 14:15 @ MSL004
 \end_layout
 
 \begin_layout Section*
@@ -155,11 +153,15 @@ Course Website
 \end_layout
 
 \begin_layout Standard
-Public Github repository:
-\begin_inset Newline newline
-\end_inset
-
 https://github.com/Project-Onion/Intro_To_Linux_Course 
+\end_layout
+
+\begin_layout Section*
+Course Forum
+\end_layout
+
+\begin_layout Standard
+https://github.com/Project-Onion/Intro_To_Linux_Course/issues
 \end_layout
 
 \begin_layout Part
