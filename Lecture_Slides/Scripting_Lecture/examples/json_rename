@@ -1,0 +1,7 @@
+#!/bin/bash
+
+n = 0;
+for f in $( ls ./trainingData | sort -n); do
+	n=$(( n+1 ))
+	mv -n "./trainingData/$f" "./trainingData/${n}.json"
+done
