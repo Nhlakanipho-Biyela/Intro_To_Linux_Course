@@ -1,0 +1,1 @@
+pbsnodes | grep host1 |grep -v jobs | nslookup | grep Address | grep -v 127 | sed s/"Address: "//
