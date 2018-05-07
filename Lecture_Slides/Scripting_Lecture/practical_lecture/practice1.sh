@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 #!/bin/bash
 
 mkdir images
