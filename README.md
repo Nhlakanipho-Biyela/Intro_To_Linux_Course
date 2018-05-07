@@ -4,7 +4,7 @@
 Mondays and Thursdays @ 13:30 (Lunch)
 
 ## Location
-MSL004
+MSL111
 
 ## Forum
 You can use the "Issues" tab in this repository as a course forum.
